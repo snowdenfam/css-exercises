@@ -1,0 +1,26 @@
+div {
+    
+    
+  }
+  #firstid {
+    color: hsl(220, 100%, 50%);
+    font-size: 36px; 
+    font-weight: bold;
+  }
+  #anotherid {
+    background-color: hsl(93, 100%, 50%);
+    font-size: 24px; 
+    font-weight: bold;
+  }
+  
+  p {
+    color: hsl(246, 81%, 99%);
+    background-color: hsl(348, 90%, 50%);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+  }
+  .main {
+    color: hsl(246, 81%, 99%);
+    background-color: hsl(348, 90%, 50%);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+    font-size: 24px;
+  }
