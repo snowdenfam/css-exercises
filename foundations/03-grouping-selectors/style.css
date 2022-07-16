@@ -1,0 +1,18 @@
+div {
+}
+.firstone,
+.secondone {
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+    font-size: 28px;
+  }
+
+.firstone {
+  color: hsl(230, 10%, 97%);
+  background-color: hsl(348, 90%, 50%);
+}
+  
+.secondone {
+    color: hsl(218, 37%, 0%);
+    background-color: hsl(348, 90%, 50%);
+   
+  }
