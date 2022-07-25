@@ -14,7 +14,9 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
-  justify-content: space-between
+  justify-content: space-between;
+  align-content: space-between;
+  
 }
 
 .profile-image {
@@ -34,6 +36,17 @@ body {
 
 
 }
+.links {
+  color: rebeccapurple;
+  font-size: 10px;
+  font-weight: 80;
+  font-style: italic;
+  display:flex;
+flex-direction: row;
+gap:8px;
+
+}
+
 
 button {
   border: none;
