@@ -14,8 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  align-content: space-between;
+  justify-content: space-around;
+  
   
 }
 
@@ -57,7 +57,19 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  display: flex;  
+
 }
+
+.container {
+  border: none;
+  border-radius: 8px;
+  color: white;
+  display: flex;  
+
+}
+
+
 
 a {
   /* this removes the line under our links */
@@ -67,6 +79,5 @@ a {
 
 ul {
   list-style-type: none;
-  
   
 }
