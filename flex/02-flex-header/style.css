@@ -3,7 +3,7 @@
   background: papayawhip;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  
   gap:9px
  
 
@@ -23,7 +23,7 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-gap: 10px;
+gap: 5px;
 padding: 80px;
 
 
