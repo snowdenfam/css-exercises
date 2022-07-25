@@ -33,17 +33,20 @@ body {
   font-weight: 900;
   font-style: italic;
   display:flex;
+  margin:8px;
+  padding: 8px
+
 
 
 }
 .links {
   color: rebeccapurple;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: 80;
   font-style: italic;
   display:flex;
 flex-direction: row;
-gap:8px;
+gap:30px;
 
 }
 
