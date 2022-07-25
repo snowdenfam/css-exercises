@@ -3,12 +3,8 @@
   background: papayawhip;
   display: flex;
   align-items: center;
-  
   gap:9px
- 
-
-  
-}
+ }
 
 .logo {
   font-size: 90px;
@@ -25,23 +21,12 @@ ul {
   display: flex;
 gap: 5px;
 padding: 80px;
-
-
-
-
-
 }
 
 .right-links {
   display: flex;
   flex-flow: row wrap;
   
-  
-  
- 
-
-
-
 }
 
 .left-links {
@@ -49,10 +34,6 @@ padding: 80px;
   flex-flow: row wrap;
   justify-content:left
   
- 
-  
-  
-
 }
 
 
