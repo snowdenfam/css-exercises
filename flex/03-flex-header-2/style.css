@@ -62,10 +62,9 @@ button {
 }
 
 .container {
-  border: none;
-  border-radius: 8px;
-  color: white;
   display: flex;  
+  margin-right: auto
+  
 
 }
 
