@@ -12,16 +12,26 @@ body {
 
 .container2 {
   display: flex;  
-  margin-right: auto;
+ margin:auto;
   margin-left:52px;
   gap:52px;
 }
 
 .container3 {
   display: flex;  
-  margin-right: auto;
-  margin-left:52px;
+  margin-left: auto;
+
   gap:52px;
+}
+.img {
+  width: 200px;
+  height: 75px; 
+  display:flex;
+  padding-right:52px;
+  margin-right:auto;
+  
+
+  
 }
 
 
@@ -31,9 +41,7 @@ body {
   height: 75px; 
   display:flex;
   margin-right:auto;
-  
  
-  
   
 
   
@@ -44,6 +52,7 @@ body {
   height: 75px; 
   display:flex;
   margin-left:auto;
+  margin:auto;
   
   
  
@@ -66,7 +75,7 @@ body {
   justify-content: flex-start;
   margin:auto
   gap:52px;
-  margin-right:52px;
+  margin-right:auto;
   
 }
 
@@ -76,7 +85,7 @@ body {
 justify-content: flex-end;
 margin:auto;
 gap:52px;
-margin-left:52px;
+margin-left:auto;
   
 }
 
