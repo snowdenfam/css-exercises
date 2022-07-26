@@ -16,6 +16,12 @@ body {
   text-align: center;
 }
 
+.container {
+  display: inline-block;
+  margin-bottom:60px;
+  gap: 52px;
+}
+
 .modal {
   background: white;
   width: 480px;
