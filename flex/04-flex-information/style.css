@@ -5,6 +5,7 @@ body {
 .container {
   display: flex;  
   margin-right: auto;
+  gap:52px;
 }
 
 
@@ -40,6 +41,7 @@ body {
   font-weight: ;
   display:flex;
   justify-content: flex-start;
+  margin:auto
   
 }
 
@@ -51,13 +53,6 @@ justify-content: flex-end;
   
 }
 
-
-.right2 {
-  font-size: 20px;
-  font-weight: ;
-  display:flex;
-justify-content: flex-end; 
-}
 /* do not edit this footer */
 .footer {
   position: fixed;
