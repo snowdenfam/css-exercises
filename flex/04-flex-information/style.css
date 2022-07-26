@@ -6,6 +6,16 @@ body {
 img {
   width: 200px;
   height: 75px; 
+  
+}
+
+.img1 {
+  width: 200px;
+  height: 75px; 
+  display:flex;
+  flex-wrap:wrap;
+
+  
 }
 
 .title {
