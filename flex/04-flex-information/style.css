@@ -17,13 +17,22 @@ body {
   gap:52px;
 }
 
+.container3 {
+  display: flex;  
+  margin-right: auto;
+  margin-left:52px;
+  gap:52px;
+}
+
 
 
 .img1 {
   width: 200px;
   height: 75px; 
   display:flex;
-  flex-wrap:wrap;
+  margin-right:auto;
+  
+ 
   
   
 
@@ -34,7 +43,8 @@ body {
   width: 200px;
   height: 75px; 
   display:flex;
-  flex-wrap:wrap;
+  margin-left:auto;
+  
   
  
 
