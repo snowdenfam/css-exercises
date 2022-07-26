@@ -2,62 +2,40 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.imgcontainer {
-  display: flex;  
-  margin-right: auto;
+
+
+.textcontainer1 {
+  display: flex;
+  justify-content:center;
+  
+ margin:auto;
   margin-left:52px;
   padding:52px;
   gap:52px;
 }
 
-.textcontainer1 {
-  display: flex;  
- margin:auto;
+.imgcontainer{
+  display: flex;
+ width: 200px;
+ flex-grow:1;
+  height: 75px; 
+  gap: 52px 52px
   margin-left:52px;
-  gap:52px;
-}
-
-.textcontainer2 {
-  display: flex;  
-  margin-left: auto;
-
-  gap:52px;
-}
-.img {
-  width: 200px;
-  height: 75px; 
-  display:flex;
-  padding-right:52px;
-  margin-right:auto;
   
-
-  
-}
-
-
-
-.img1 {
-  width: 200px;
-  height: 75px; 
-  display:flex;
-  margin-right:auto;
  
-  
-
-  
 }
-
-.img2 {
+.imgcontainer2{
+  display: flex;
+  justify-content:flex-end;
   width: 200px;
   height: 75px; 
-  display:flex;
-  margin-left:auto;
+  
   margin:auto;
-  
-  
- 
-
+  margin-right:52px;
+  padding:52px;
+  gap:52px 52px;
 }
+
 
 
 
@@ -72,19 +50,17 @@ body {
 .left {
   font-size: 20px;
   display:flex;
-  justify-content: flex-start;
-  margin:auto
-  gap:52px;
-  margin-right:auto;
+  
+  gap:52px 52px;
+ 
   
 }
 
 .right {
   font-size: 20px;
   display:flex;
-justify-content: flex-end;
-margin:auto;
-gap:52px;
+
+gap:52px 52px;
 margin-left:auto;
   
 }
