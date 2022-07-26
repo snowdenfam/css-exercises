@@ -8,6 +8,12 @@ body {
   gap:52px;
 }
 
+.container2 {
+  display: flex;  
+  margin-right: auto;
+  gap:52px;
+}
+
 
 
 .img1 {
@@ -15,7 +21,8 @@ body {
   height: 75px; 
   display:flex;
   flex-wrap:wrap;
-  margin:auto
+  gap:52px;
+  
 
   
 }
@@ -25,6 +32,7 @@ body {
   height: 75px; 
   display:flex;
   flex-wrap:wrap-reverse;
+  margin:auto
  
 
 }
