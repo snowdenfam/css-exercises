@@ -5,12 +5,15 @@ body {
 .container {
   display: flex;  
   margin-right: auto;
+  margin-left:52px;
+  padding:52px;
   gap:52px;
 }
 
 .container2 {
   display: flex;  
   margin-right: auto;
+  margin-left:52px;
   gap:52px;
 }
 
@@ -21,7 +24,7 @@ body {
   height: 75px; 
   display:flex;
   flex-wrap:wrap;
-  gap:52px;
+  
   
 
   
@@ -31,8 +34,8 @@ body {
   width: 200px;
   height: 75px; 
   display:flex;
-  flex-wrap:wrap-reverse;
-  margin:auto
+  flex-wrap:wrap;
+  
  
 
 }
@@ -49,18 +52,21 @@ body {
 
 .left {
   font-size: 20px;
-  font-weight: ;
   display:flex;
   justify-content: flex-start;
   margin:auto
+  gap:52px;
+  margin-right:52px;
   
 }
 
 .right {
   font-size: 20px;
-  font-weight: ;
   display:flex;
 justify-content: flex-end;
+margin:auto;
+gap:52px;
+margin-left:52px;
   
 }
 
