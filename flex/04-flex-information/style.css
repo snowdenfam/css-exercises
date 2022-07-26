@@ -2,7 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
+.imgcontainer {
   display: flex;  
   margin-right: auto;
   margin-left:52px;
@@ -10,14 +10,14 @@ body {
   gap:52px;
 }
 
-.container2 {
+.textcontainer1 {
   display: flex;  
  margin:auto;
   margin-left:52px;
   gap:52px;
 }
 
-.container3 {
+.textcontainer2 {
   display: flex;  
   margin-left: auto;
 
