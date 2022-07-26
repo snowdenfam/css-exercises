@@ -5,9 +5,7 @@ body {
 
 img {
   width: 200px;
-  height: 100px;
-  display: flex;
-  justify-content: space-between;
+  height: 75px; 
 }
 
 .title {
@@ -18,12 +16,29 @@ img {
   margin-bottom:32px;
 }
 
-.text {
-  font-size: 36px;
-  font-weight: 900;
+.left {
+  font-size: 20px;
+  font-weight: ;
   display:flex;
+  justify-content: flex-start;
+  
+}
+
+.right {
+  font-size: 20px;
+  font-weight: ;
+  display:flex;
+justify-content: flex-end;
+  
+}
 
 
+.right2 {
+  font-size: 20px;
+  font-weight: ;
+  display:flex;
+justify-content: flex-end; 
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
