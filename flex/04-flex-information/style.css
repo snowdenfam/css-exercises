@@ -4,8 +4,10 @@ body {
 
 
 img {
-  width: 100px;
+  width: 200px;
   height: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
