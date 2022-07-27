@@ -19,13 +19,14 @@ body {
   background: white;
   width: 480px;
   height:220px;
+  
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 8px 9px 18px rgba(0,0,0,.2);
   display:flex;
   justify-content:center;
   flex-direction:column;
-  padding:15px;
- 
+  padding:20px;
+ padding-bottom: 1px; 
 }
 
 .icon {
@@ -36,8 +37,8 @@ body {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  margin-left:4px;
-  margin-right:418px;
+  margin-left:18px;
+  margin-right:420px;
   margin-top:7px;
   margin-bottom:-299px;
   display: flex;
@@ -54,35 +55,61 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  margin-left:95px;
+  margin-left:150px;
 
   
   display: flex;
   justify-content: center;
 }
 
-
-.container1{
-display:flex;
-justify-content:space-around;
-flex-direction: column;
-width:400px;
-margin-left:auto;
-margin-right:auto;
-margin-top:-30px;
-padding-left:17px;
-gap:10px 10px;
-}
+  
+  .top{
+    display:flex;
+    margin-bottom:50px;
+    margin-
+    gap: 78px 56px;
+   
+  
+    padding-left:50px
+    }
 
 
-.container2{
+.middle{
+      display:flex;
+      justify-content:space-around;
+      flex-direction: column;
+      width:400px;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top:-30px;
+      padding-left:17px;
+      gap:10px 10px;
+      }
+
+
+.bottom {
   
   justify-content: center;
   margin-top:15px;
   margin-bottom:15px;
   gap:10px 9px;
-  padding-left:50px
+  padding-left:50px;
   }
+
+  .left{
+    margin-top:-45px;
+    margin-left:4px;
+margin-left:-90px;
+margin-bottom:10px;
+
+display: flex;
+
+justify-content: space-around;
+
+    
+   
+     padding-left:50px
+     }
 
 
   .container3{
@@ -96,42 +123,9 @@ gap:10px 10px;
     }
   
 
-    .container4{
-      display:flex;
-      margin-bottom:15px;
-      gap: 56px 56px;
-     
     
-      padding-left:50px
-      }
-      
-      .container5{
-       margin-left:4px;
-  margin-left:418px;
-  margin-bottom:10px;
-  margin-top:10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 
-       
-      
-        padding-left:50px
-        }
-
-        .container6{
-          margin-left:4px;
-     margin-left:-90px;
-     margin-bottom:10px;
-     
-     display: flex;
-  
-     justify-content: space-around;
-   
-          
-         
-           padding-left:50px
-           }
+        
 
 
 .text{
