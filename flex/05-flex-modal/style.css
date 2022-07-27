@@ -12,7 +12,7 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:center ;
 }
 
 .modal {
@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+ 
 }
 
 .icon {
@@ -37,10 +38,45 @@ body {
 
 .container1{
 display:flex;
-justify-content:space-around
-
-
+justify-content:space-around;
+flex-direction: column;
+margin-left:auto;
+margin-right:auto;
+margin-top:-30px;
+padding-left:50px;
+gap:10px 10px;
 }
+
+
+.container2{
+  
+  justify-content: center;
+  flex-direction: row;
+  margin-left:auto;
+  margin-top:15px;
+  margin-bottom:15px;
+  margin-right:auto;
+  gap:10px 9px;
+  padding-left:50px
+  }
+
+
+  .container3{
+   
+    justify-content:center;
+    flex-direction: column;
+    margin-bottom:15px;
+   
+    gap:50px 50px;
+    padding-left:50px
+    }
+  
+
+.text{
+  display:inline-block;
+  
+  }
+
 
 
 
@@ -60,7 +96,7 @@ justify-content:space-around
 
 button {
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 9px;
 }
 
 button.continue {
