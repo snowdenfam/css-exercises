@@ -31,6 +31,9 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
+  margin-left:418px;
+  margin-top:10px;
+  margin-bottom:10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,6 +43,7 @@ body {
 display:flex;
 justify-content:space-around;
 flex-direction: column;
+word-wrap: ;
 margin-left:auto;
 margin-right:auto;
 margin-top:-30px;
