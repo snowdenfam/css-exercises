@@ -13,13 +13,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-}
-
-.container {
-  display: inline-block;
-  margin-bottom:60px;
-  gap: 52px;
 }
 
 .modal {
@@ -37,7 +30,6 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  margin-left:10px;
   display: flex;
   align-items: center;
   justify-content: center;
