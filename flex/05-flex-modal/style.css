@@ -28,13 +28,10 @@ body {
 .firstbox{
 display:flex;
 justify-content:space-around;
-gap: 56px 70px;
+gap: 56px 400px;
 }
 
-.text{
- 
 
-  }
 
 
 
@@ -55,15 +52,21 @@ gap: 56px 70px;
     display:flex;
     flex-direction:column-reverse;
     justify-content:space-around;
-    align-items:flex-end;
     height:80px;
     margin-left:50px
-
-  
-   
-    
     
     }
+
+    .fourthbox{
+      display:flex;
+      flex-direction:column-reverse;
+      align-items:flex-start;
+    
+      margin-left:50px
+    }
+
+
+    
 
 .icon {
   color: royalblue;
