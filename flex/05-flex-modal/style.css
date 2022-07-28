@@ -12,40 +12,71 @@ body {
   /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
-  justify-content:center ;
+  justify-content: center;
+  max-width: 600px;
 }
 
 .modal {
   background: white;
   width: 480px;
-  height:220px;
-  
   border-radius: 10px;
-  box-shadow: 8px 9px 18px rgba(0,0,0,.2);
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
-  padding:20px;
- padding-bottom: 1px; 
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding:7px
+  
 }
+
+.firstbox{
+display:flex;
+justify-content:space-around;
+gap: 56px 70px;
+}
+
+.text{
+ 
+
+  }
+
+
+
+.secondbox{
+  display:flex;
+  flex-direction:row;
+  margin-left:50px;
+  margin-top:20px
+  
+  
+
+  
+  
+  
+  }
+
+  .thirdbox{
+    display:flex;
+    flex-direction:column-reverse;
+    justify-content:space-around;
+    align-items:flex-end;
+    height:80px;
+    margin-left:50px
+
+  
+   
+    
+    
+    }
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 48px;
-  height: 48px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  margin-left:18px;
-  margin-right:420px;
-  margin-top:7px;
-  margin-bottom:-299px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
-
 
 .close-button {
   background: #eee;
@@ -55,93 +86,14 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  margin-left:150px;
-
-  
   display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-  
-  .top{
-    display:flex;
-    margin-bottom:50px;
-    margin-
-    gap: 78px 56px;
-   
-  
-    padding-left:50px
-    }
-
-
-.middle{
-      display:flex;
-      justify-content:space-around;
-      flex-direction: column;
-      width:400px;
-      margin-left:auto;
-      margin-right:auto;
-      margin-top:-30px;
-      padding-left:17px;
-      gap:10px 10px;
-      }
-
-
-.bottom {
-  
-  justify-content: center;
-  margin-top:15px;
-  margin-bottom:15px;
-  gap:10px 9px;
-  padding-left:50px;
-  }
-
-  .left{
-    margin-top:-45px;
-    margin-left:4px;
-margin-left:-90px;
-margin-bottom:10px;
-
-display: flex;
-
-justify-content: space-around;
-
-    
-   
-     padding-left:50px
-     }
-
-
-  .container3{
-   
-    justify-content:center;
-    flex-direction: column;
-    margin-bottom:15px;
-   
-    gap:50px 50px;
-    padding-left:50px
-    }
-  
-
-    
-
-        
-
-
-.text{
-  display:inline-block;
-  
-  }
-
-
-
-
-
-
-
 button {
   padding: 8px 16px;
-  border-radius: 9px;
+  border-radius: 8px;
 }
 
 button.continue {
