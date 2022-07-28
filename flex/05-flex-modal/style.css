@@ -28,7 +28,7 @@ body {
 .firstbox{
 display:flex;
 justify-content:space-around;
-gap: 56px 400px;
+gap: 58px 415px;
 }
 
 
@@ -52,10 +52,22 @@ gap: 56px 400px;
     display:flex;
     flex-direction:column-reverse;
     justify-content:space-around;
-    height:80px;
+    height:6px;
     margin-left:50px
     
     }
+
+
+    .header{
+      display:flex;
+      flex-direction:column-reverse;
+      justify-content:space-around;
+      margin-bottom:5px
+     
+      }
+
+
+      
 
     .fourthbox{
       display:flex;
@@ -64,9 +76,20 @@ gap: 56px 400px;
     
       margin-left:50px
     }
+    .continue{
+      margin-top:55px;
+      margin-bottom:1px;
+    }
 
+    .cancel{
+      margin-top:55px;
+      margin-bottom:1px;
+    }
 
-    
+    .text{
+     
+      margin-bottom:-30px;
+    }
 
 .icon {
   color: royalblue;
