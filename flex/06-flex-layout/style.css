@@ -5,7 +5,52 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  
 }
+.buttons{
+display:flex;
+justify-content:center
+}
+
+.input{
+  display:flex;
+  justify-content:center;
+}
+ 
+.header{
+display:flex;
+
+
+}
+
+.about{
+
+  display:flex;
+  margin-bottom: 500px;
+  
+ 
+}
+
+.profile{
+
+  display:flex;
+  margin-bottom: 500px;
+ 
+  
+ 
+}
+
+
+
+
+
+
+
+
+
 
 img {
   width: 600px;
