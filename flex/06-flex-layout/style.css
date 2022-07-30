@@ -21,21 +21,47 @@ justify-content:center
 }
  
 .header{
-display:flex;
-align-self:flex-start;
+  padding-left:10px;
+  
+  
 }
 
 .bottomlinks {
 
-  margin-top:500px;
   display:flex;
   gap:10px
+  
+  
+}
+
+.bottomlinks a , .toplinks a {
+
+  text-decoration: none;
+  color:black;
+}
+
+
+
+
+
+{
+  
+
+  display:flex;
+  gap:10px
+  
+  
+}
+
+.toplinks {
+
+  
+  display:flex;
+  gap:6px
 }
 
 .space {
-  width: 99px;
-  gap:99px 79px;
-  height: 78px;
+ 
   display: flex;
   margin-top:500px;
 
@@ -46,15 +72,24 @@ align-self:flex-start;
  
   display: flex;
  
-  margin-bottom:500px;
+  margin-top:500px;
 }
 
 .footer {
   display:flex
-  flex-direction:column;
+  flex-direction:row;
+  padding-right:10px
+  
+  
+    
+  
 }
 
+ul 
+{
+  list-style: none
 
+}
 
 
 
