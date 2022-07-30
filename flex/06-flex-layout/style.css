@@ -22,22 +22,48 @@ justify-content:center
  
 .header{
 display:flex;
+align-self:flex-start;
+}
 
+.bottomlinks {
+
+  margin-top:500px;
+  display:flex;
+  gap:10px
+}
+
+.space {
+  width: 99px;
+  gap:99px 79px;
+  height: 78px;
+  display: flex;
+  margin-top:500px;
 
 }
 
-.about{
+.space2 {
 
-  display:flex;
-  margin-bottom: 500px;
-  
  
+  display: flex;
+ 
+  margin-bottom:500px;
 }
 
-.profile{
+.footer {
+  display:flex
+  flex-direction:column;
+}
+
+
+
+
+
+
+.profile {
 
   display:flex;
-  margin-bottom: 500px;
+ 
+ 
  
   
  
