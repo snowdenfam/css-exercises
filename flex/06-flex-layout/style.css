@@ -22,7 +22,8 @@ gap:10px;
 margin-top:5px;
 font-family: Roboto, sans-serif;
   border: none;
-  border-radius: 1px;
+  border-radius: 8px;
+  
 }
 
 input {
