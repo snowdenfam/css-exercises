@@ -2,37 +2,76 @@
 
 body {
   height: 100vh;
-  margin: 0;
-  overflow: hidden;
-  font-family: Roboto, sans-serif;
   display:flex;
-  justify-content:center;
-  align-items: center;
-  
+  flex-direction:column;
+  justify-content: center;
+ margin:auto;
+ overflow: hidden;
+  font-family: Roboto, sans-serif; 
 }
+
+ul {
+  list-style: none
+}
+
+
 .buttons{
 display:flex;
-justify-content:center
+justify-content:center;
+gap:10px;
+margin-top:5px;
+font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 1px;
 }
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 19px;
+}
+
 
 .input{
-  display:flex;
+  display: flex;
   justify-content:center;
-}
- 
-.header{
-  padding-left:10px;
-  
-  
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 }
 
-.bottomlinks {
 
+img{
+  display: block;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60%;  
+}
+
+
+
+.header {
   display:flex;
-  gap:10px
-  
-  
+  justify-content:space-between;
+ position:absolute;
+  width: 100%;
+  top: 0;
 }
+
+
+.footer {
+  display:flex;
+  justify-content:space-between;
+  position:absolute;
+width: 100%;
+bottom: 0;
+   background-color: silver;
+   background-color:   
+ }
+
 
 .bottomlinks a , .toplinks a {
 
@@ -41,67 +80,16 @@ justify-content:center
 }
 
 
-
-
-
-{
-  
-
+.bottomlinks {
   display:flex;
-  gap:10px
-  
-  
+  gap:6px;
+  padding-right:10px;
 }
 
-.toplinks {
-
-  
+.toplinks {  
   display:flex;
-  gap:6px
-}
-
-.space {
- 
-  display: flex;
-  margin-top:500px;
-
-}
-
-.space2 {
-
- 
-  display: flex;
- 
-  margin-top:500px;
-}
-
-.footer {
-  display:flex
-  flex-direction:row;
-  padding-right:10px
-  
-  
-    
-  
-}
-
-ul 
-{
-  list-style: none
-
-}
-
-
-
-
-.profile {
-
-  display:flex;
- 
- 
- 
-  
- 
+  gap:10px;
+  padding-right:10px;
 }
 
 
@@ -111,23 +99,3 @@ ul
 
 
 
-
-
-img {
-  width: 600px;
-}
-
-button {
-  font-family: Roboto, sans-serif;
-  border: none;
-  border-radius: 8px;
-  background: #eee;
-}
-
-input {
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 8px 24px;
-  width: 400px;
-  margin-bottom: 16px;
-}
