@@ -13,6 +13,10 @@ box-sizing: border-box;
   height: 72px;
   background: darkmagenta;
   color: white;
+  display:flex;
+  position:absolute;
+width: 100%;
+top: 0;
 }
 
 .footer {
@@ -46,27 +50,28 @@ bottom: 0;
 
 .cardcontainer {
 
- display:flex;
- 
-
-}
-
-.space {
-
  
 }
+
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 166px rgba(0,0,0,.06);
   border-radius: 4px;
   
-  max-width: 70px;
-  max-height: 80px;;
+ width:100%;
+ 
+  gap:10px;
+  
+  display:block;
+  justify-content: row;
+
+  flex-direction:column-reverse;
   flex-wrap:wrap;
-  display:flex;
+  align-self:center;
  margin-left:auto;
  margin-right:auto;
+
   
   
 }
