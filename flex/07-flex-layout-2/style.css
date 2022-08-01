@@ -14,6 +14,11 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display:flex;
+  justify-content:space-between;
+  position:absolute;
+width: 100%;
+bottom: 0;
 }
 
 .sidebar {
