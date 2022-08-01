@@ -15,7 +15,7 @@ body {
   background: #eee;
   color: darkmagenta;
   display:flex;
-  justify-content:space-between;
+  justify-content:center;
   position:absolute;
 width: 100%;
 bottom: 0;
